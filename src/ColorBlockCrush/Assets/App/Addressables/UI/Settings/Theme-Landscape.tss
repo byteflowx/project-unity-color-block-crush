@@ -1,0 +1,18 @@
+@import url("unity-theme://default");
+
+@import url("/Assets/App/Addressables/UI/Uss/Variables.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Landscape/Variables.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Core/Layout.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Core/Transitions.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Screens/MenuScreen.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Components/Loader.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Components/SlideToggle.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Components/RoundedButton.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Components/OutlinedButton.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Components/CircleButton.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Components/PopupHeader.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Components/ScreenHeader.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Components/Toast.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Components/Error.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Popups/LevelResult.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Screens/GameScreen.uss");

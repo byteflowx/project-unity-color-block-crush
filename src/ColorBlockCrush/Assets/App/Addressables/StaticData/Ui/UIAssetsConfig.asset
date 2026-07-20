@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da96153931e454333a7a3df162625608, type: 3}
+  m_Name: UIAssetsConfig
+  m_EditorClassIdentifier: Assembly-CSharp::App.Codebase.StaticData.UIAssetsConfig
+  _themeSettings: {fileID: 11400000, guid: bd489e183d26e4d81bd0606f047f986c, type: 2}
+  _mainLayout:
+    m_AssetGUID: b021addde43ac4ddbacda21b0791b41b
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  _screens:
+  - Id: 0
+    Asset:
+      m_AssetGUID: e996d7473bcfd4614953d4dff8fff6ca
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - Id: 1
+    Asset:
+      m_AssetGUID: 7007e71cb63174600ae874dc33cb8db0
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  _popups:
+  - Id: 0
+    Asset:
+      m_AssetGUID: 6e956899c7c714013b8fc908d0fe8d94
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - Id: 1
+    Asset:
+      m_AssetGUID: efe8a0f51b7c0446a962ee7881942f42
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="unit-label__root" picking-mode="Ignore" class="unit-label__root">
+        <ui:Label name="unit-label__charges" text="20" picking-mode="Ignore" class="unit-label__charges"/>
+    </ui:VisualElement>
+</ui:UXML>

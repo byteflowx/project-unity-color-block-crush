@@ -1,0 +1,57 @@
+.outlined-btn {
+    height: var(--size-button-height);
+    min-width: var(--size-button-min-width);
+    padding-left: var(--space-2xl);
+    padding-right: var(--space-2xl);
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    transition-property: scale;
+    transition-duration: var(--transition-fast);
+    transition-timing-function: ease-out;
+    --outlined-btn-border: var(--color-primary);
+    --outlined-btn-border-width: var(--draw-stroke-lg);
+    --outlined-btn-radius: var(--draw-radius-md);
+}
+
+.outlined-btn--pressed {
+    scale: var(--scale-press) var(--scale-press);
+}
+
+.outlined-btn:disabled {
+    opacity: var(--opacity-disabled);
+}
+
+.outlined-btn__label {
+    font-size: var(--font-lg);
+    -unity-font-definition: var(--font-bold);
+    color: var(--color-primary);
+    -unity-text-align: middle-center;
+}
+
+.outlined-btn--full-width {
+    width: 100%;
+}
+
+.outlined-btn--sm {
+    height: var(--size-button-height-sm);
+    min-width: var(--size-button-min-width-sm);
+    padding-left: var(--space-xl);
+    padding-right: var(--space-xl);
+}
+
+.outlined-btn--sm > .outlined-btn__label {
+    font-size: var(--font-base);
+}
+
+.outlined-btn--lg {
+    height: var(--size-button-height-lg);
+    min-width: var(--size-button-min-width-lg);
+    padding-left: var(--space-3xl);
+    padding-right: var(--space-3xl);
+}
+
+.outlined-btn--lg > .outlined-btn__label {
+    font-size: var(--font-xl);
+}

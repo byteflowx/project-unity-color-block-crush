@@ -1,0 +1,42 @@
+.circle-btn {
+    --circle-btn-size: var(--size-icon-button);
+    --circle-btn-icon-size: var(--size-icon-glyph);
+    --circle-btn-border-width: var(--draw-stroke-md);
+    --circle-btn-background: var(--color-surface);
+    --circle-btn-border: var(--color-border);
+
+    width: var(--circle-btn-size);
+    height: var(--circle-btn-size);
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition-property: scale;
+    transition-duration: var(--transition-fast);
+    transition-timing-function: ease-out;
+}
+
+.circle-btn--pressed {
+    scale: var(--scale-press) var(--scale-press);
+}
+
+.circle-btn:disabled {
+    opacity: var(--opacity-disabled);
+}
+
+.circle-btn__icon {
+    width: var(--circle-btn-icon-size);
+    height: var(--circle-btn-icon-size);
+    --unity-image-tint-color: var(--color-text);
+}
+
+.circle-btn--sm {
+    --circle-btn-size: var(--size-icon-button-sm);
+    --circle-btn-icon-size: var(--size-icon-glyph-sm);
+    --circle-btn-border-width: var(--draw-stroke-sm);
+}
+
+.circle-btn--lg {
+    --circle-btn-size: var(--size-icon-button-lg);
+    --circle-btn-icon-size: var(--size-icon-glyph-lg);
+    --circle-btn-border-width: var(--draw-stroke-md);
+}

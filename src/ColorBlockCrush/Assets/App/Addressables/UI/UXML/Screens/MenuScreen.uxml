@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="menu-container" class="screen menu">
+        <ui:VisualElement name="menu-content" class="menu__content">
+            <ui:VisualElement name="buttons-container" class="menu__buttons">
+                <App.Scripts.UI.Toolkit.Controls.RoundedButton text="PLAY" name="play-btn" class="rounded-btn rounded-btn--full-width"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,162 @@
+:root {
+    /* ═══════════════════════════════════════════
+       FONTS
+       ═══════════════════════════════════════════ */
+    --font-regular: url('/Assets/App/Addressables/Fonts/JetBrainsMono-Regular SDF.asset');
+    --font-medium: url('/Assets/App/Addressables/Fonts/JetBrainsMono-Medium SDF.asset');
+    --font-semibold: url('/Assets/App/Addressables/Fonts/JetBrainsMono-SemiBold SDF.asset');
+    --font-bold: url('/Assets/App/Addressables/Fonts/JetBrainsMono-Bold SDF.asset');
+
+    -unity-font-definition: var(--font-regular);
+
+    /* ═══════════════════════════════════════════
+       COLORS
+       ═══════════════════════════════════════════ */
+    --color-primary: #FFB328;
+    --color-primary-dark: #E0900A;
+    --color-background: #17356E;
+    --color-surface: #21478C;
+    --color-surface-elevated: #2E5CA8;
+    --color-border: #3E72C4;
+    --color-text: #FFFFFF;
+    --color-text-secondary: #BCD2F0;
+    --color-text-tertiary: #8AA8D4;
+    --color-text-muted: #5E7CAC;
+    --color-accent: #FFD93D;
+    --color-success: #37C85A;
+    --color-warning: #FF8A1F;
+    --color-error: #F0453A;
+    --color-error-dark: #C9291F;
+    --color-overlay: rgba(9, 26, 58, 0.85);
+    --color-overlay-popup: rgba(0, 0, 0, 0);
+    --color-accent-subtle: rgba(255, 217, 61, 0.125);
+
+    /* ═══════════════════════════════════════════
+       SPACING
+       ═══════════════════════════════════════════ */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 12px;
+    --space-lg: 16px;
+    --space-xl: 24px;
+    --space-2xl: 32px;
+    --space-3xl: 48px;
+
+    /* ═══════════════════════════════════════════
+       TYPOGRAPHY
+       ═══════════════════════════════════════════ */
+    --font-xs: 24px;
+    --font-sm: 28px;
+    --font-base: 32px;
+    --font-lg: 36px;
+    --font-xl: 40px;
+    --font-2xl: 48px;
+    --font-3xl: 64px;
+    --font-4xl: 80px;
+    --letter-spacing-sm: 4px;
+
+    /* ═══════════════════════════════════════════
+       BORDER RADIUS
+       ═══════════════════════════════════════════ */
+    --radius-sm: 12px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-xl: 32px;
+    --radius-full: 9999px;
+
+    /* ═══════════════════════════════════════════
+       BORDER WIDTH
+       ═══════════════════════════════════════════ */
+    --border-width-sm: 1px;
+    --border-width-md: 2px;
+    --border-width-lg: 4px;
+    --draw-stroke-sm: 1;
+    --draw-stroke-md: 2;
+    --draw-stroke-lg: 3;
+    --draw-radius-md: 16;
+    --draw-shadow-depth: 6;
+
+    /* ═══════════════════════════════════════════
+       TRANSITIONS
+       ═══════════════════════════════════════════ */
+    --transition-fast: 0.15s;
+    --transition-normal: 0.2s;
+    --transition-slow: 0.3s;
+
+    /* ═══════════════════════════════════════════
+       OPACITY
+       ═══════════════════════════════════════════ */
+    --opacity-disabled: 0.5;
+
+    /* ═══════════════════════════════════════════
+       SCALE
+       ═══════════════════════════════════════════ */
+    --scale-press: 0.95;
+
+    /* ═══════════════════════════════════════════
+       SIZES
+       ═══════════════════════════════════════════ */
+    --size-button-height: 88px;
+    --size-button-height-sm: 72px;
+    --size-button-height-lg: 104px;
+    --size-button-min-width: 200px;
+    --size-button-min-width-sm: 150px;
+    --size-button-min-width-lg: 260px;
+    --size-icon-button: 56px;
+    --size-icon-button-sm: 48px;
+    --size-icon-button-lg: 112px;
+    --size-icon-glyph: 24px;
+    --size-icon-glyph-sm: 20px;
+    --size-icon-glyph-lg: 48px;
+    --size-spinner: 48px;
+    --size-dropdown-width: 200px;
+
+    /* ═══════════════════════════════════════════
+       COMPONENT: Toggle
+       ═══════════════════════════════════════════ */
+    --toggle-width: 48px;
+    --toggle-height: 28px;
+    --toggle-border-radius: 14px;
+    --toggle-knob-size: 20px;
+    --toggle-knob-offset: 4px;
+    --toggle-width-sm: 36px;
+    --toggle-height-sm: 20px;
+    --toggle-border-radius-sm: 10px;
+    --toggle-knob-size-sm: 14px;
+    --toggle-knob-offset-sm: 3px;
+    --toggle-width-lg: 60px;
+    --toggle-height-lg: 36px;
+    --toggle-border-radius-lg: 18px;
+    --toggle-knob-size-lg: 28px;
+    --toggle-knob-offset-lg: 4px;
+
+    /* ═══════════════════════════════════════════
+       COMPONENT: Popup
+       ═══════════════════════════════════════════ */
+    --popup-max-width-sm: 520px;
+    --popup-max-width-md: 680px;
+    --popup-max-width-lg: 840px;
+
+    /* ═══════════════════════════════════════════
+       LAYOUT
+       ═══════════════════════════════════════════ */
+    --layout-screen-padding: 24px;
+    --layout-modal-padding: 24px;
+    --layout-card-gap: 12px;
+    --layout-section-gap: 24px;
+    --layout-button-gap: 12px;
+    --layout-menu-button-width: 100%;
+
+    /* ═══════════════════════════════════════════
+       SCREEN: Menu
+       ═══════════════════════════════════════════ */
+    --menu-logo-size: 72px;
+    --menu-subtitle-size: 32px;
+    --menu-letter-spacing: 6px;
+    --menu-logo-glow: 0 0 60px rgba(255, 179, 40, 0.5);
+
+    /* ═══════════════════════════════════════════
+       COMPONENT: Toast
+       ═══════════════════════════════════════════ */
+    --toast-font-size: 36px;
+}

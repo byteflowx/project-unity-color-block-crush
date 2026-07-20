@@ -1,0 +1,6 @@
+.game__level-label {
+    font-size: var(--font-lg);
+    -unity-font-definition: var(--font-bold);
+    color: var(--color-text);
+    letter-spacing: var(--letter-spacing-sm);
+}

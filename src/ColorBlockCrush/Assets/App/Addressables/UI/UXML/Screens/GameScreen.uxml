@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="game-container" class="screen game">
+        <App.Scripts.UI.Toolkit.Controls.ScreenHeader name="game__header">
+            <ui:Label name="game__level-label" text="LEVEL 1" class="game__level-label"/>
+            <App.Scripts.UI.Toolkit.Controls.RoundedButton text="RESTART" name="game__restart-btn" size="Small" class="rounded-btn"/>
+        </App.Scripts.UI.Toolkit.Controls.ScreenHeader>
+    </ui:VisualElement>
+</ui:UXML>

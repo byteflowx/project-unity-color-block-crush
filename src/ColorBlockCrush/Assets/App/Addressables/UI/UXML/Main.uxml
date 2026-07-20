@@ -1,0 +1,41 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="root" class="root">
+        <ui:VisualElement name="screens-container" picking-mode="Ignore" class="screens-container">
+            <ui:VisualElement name="screen-overlay" class="screen-overlay"/>
+            <App.Scripts.UI.Toolkit.Controls.SafeArea name="screens-safe-area">
+                <ui:VisualElement name="screens-content" picking-mode="Ignore" class="screens-content"/>
+            </App.Scripts.UI.Toolkit.Controls.SafeArea>
+        </ui:VisualElement>
+        <ui:VisualElement name="popups-container" picking-mode="Ignore" class="popups-container">
+            <ui:VisualElement name="popup-overlay" class="popup-overlay"/>
+            <App.Scripts.UI.Toolkit.Controls.SafeArea name="popups-safe-area">
+                <ui:VisualElement name="popups-content" picking-mode="Ignore" class="popups-content"/>
+            </App.Scripts.UI.Toolkit.Controls.SafeArea>
+        </ui:VisualElement>
+        <ui:VisualElement name="loader-container" picking-mode="Ignore" class="loader loader--hidden">
+            <ui:VisualElement name="loader-overlay" class="loader-overlay"/>
+            <App.Scripts.UI.Toolkit.Controls.SafeArea name="loader-safe-area">
+                <ui:VisualElement name="loader__content" class="loader__content">
+                    <ui:VisualElement name="loader__spinner" class="loader__spinner"/>
+                </ui:VisualElement>
+            </App.Scripts.UI.Toolkit.Controls.SafeArea>
+        </ui:VisualElement>
+        <ui:VisualElement name="error-container" class="error error--hidden">
+            <ui:VisualElement name="error__overlay" class="error__overlay"/>
+            <App.Scripts.UI.Toolkit.Controls.SafeArea name="error-safe-area">
+                <ui:VisualElement name="error__popup" class="error__popup">
+                    <ui:Label name="error__message" class="error__message"/>
+                    <ui:VisualElement name="error__actions" class="error__actions">
+                        <ui:Button name="error__retry-btn" class="error__btn error__btn--primary"/>
+                        <ui:Button name="error__skip-btn" class="error__btn error__btn--secondary"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </App.Scripts.UI.Toolkit.Controls.SafeArea>
+        </ui:VisualElement>
+        <ui:VisualElement name="toast-container" picking-mode="Ignore" class="toast toast--hidden">
+            <App.Scripts.UI.Toolkit.Controls.SafeArea name="toast-safe-area" exclude-left="true" exclude-right="true" exclude-bottom="true">
+                <ui:Label name="toast__message" picking-mode="Ignore" class="toast__message"/>
+            </App.Scripts.UI.Toolkit.Controls.SafeArea>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

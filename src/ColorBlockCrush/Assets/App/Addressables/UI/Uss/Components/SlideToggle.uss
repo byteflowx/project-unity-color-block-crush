@@ -1,0 +1,56 @@
+.slide-toggle {
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.slide-toggle > .unity-base-field__label {
+    display: none;
+}
+
+.slide-toggle__input {
+    width: var(--toggle-width);
+    height: var(--toggle-height);
+    border-radius: var(--toggle-border-radius);
+    background-color: var(--color-border);
+    border-width: 0;
+    overflow: visible;
+    justify-content: center;
+    transition-property: background-color;
+    transition-duration: var(--transition-normal);
+}
+
+.slide-toggle__input--checked {
+    background-color: var(--color-success);
+}
+
+.slide-toggle__knob {
+    width: var(--toggle-knob-size);
+    height: var(--toggle-knob-size);
+    border-radius: var(--radius-full);
+    background-color: var(--color-text);
+    position: absolute;
+    top: var(--toggle-knob-offset);
+    left: var(--toggle-knob-offset);
+    transition-property: translate;
+    transition-duration: var(--transition-normal);
+}
+
+.slide-toggle__input--checked > .slide-toggle__knob {
+    translate: var(--toggle-knob-size) 0;
+}
+
+.slide-toggle--sm {
+    --toggle-width: var(--toggle-width-sm);
+    --toggle-height: var(--toggle-height-sm);
+    --toggle-border-radius: var(--toggle-border-radius-sm);
+    --toggle-knob-size: var(--toggle-knob-size-sm);
+    --toggle-knob-offset: var(--toggle-knob-offset-sm);
+}
+
+.slide-toggle--lg {
+    --toggle-width: var(--toggle-width-lg);
+    --toggle-height: var(--toggle-height-lg);
+    --toggle-border-radius: var(--toggle-border-radius-lg);
+    --toggle-knob-size: var(--toggle-knob-size-lg);
+    --toggle-knob-offset: var(--toggle-knob-offset-lg);
+}

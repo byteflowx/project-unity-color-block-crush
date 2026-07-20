@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="level-complete-popup" class="popup popup--sm popup--hidden">
+        <App.Scripts.UI.Toolkit.Controls.PopupHeader name="level-complete__header" title="Level Complete"/>
+        <ui:VisualElement name="level-complete__content" class="popup__content level-result__content">
+            <ui:Label name="level-complete__title" text="SUCCESS" class="level-result__title level-result__title--success"/>
+            <ui:Label name="level-complete__subtitle" text="Level cleared" class="level-result__subtitle"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="level-complete__footer" class="popup__footer level-result__footer">
+            <App.Scripts.UI.Toolkit.Controls.RoundedButton text="NEXT LEVEL" name="level-complete__next-btn" class="rounded-btn rounded-btn--full-width"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="level-failed-popup" class="popup popup--sm popup--hidden">
+        <App.Scripts.UI.Toolkit.Controls.PopupHeader name="level-failed__header" title="Level Failed"/>
+        <ui:VisualElement name="level-failed__content" class="popup__content level-result__content">
+            <ui:Label name="level-failed__title" text="NO MOVES LEFT" class="level-result__title level-result__title--failed"/>
+            <ui:Label name="level-failed__subtitle" text="Try again" class="level-result__subtitle"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="level-failed__footer" class="popup__footer level-result__footer">
+            <App.Scripts.UI.Toolkit.Controls.RoundedButton text="RETRY" name="level-failed__retry-btn" class="rounded-btn rounded-btn--full-width"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

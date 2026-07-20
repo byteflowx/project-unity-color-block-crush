@@ -1,0 +1,21 @@
+.menu {
+    flex-grow: 1;
+}
+
+.menu__content {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding: var(--layout-screen-padding);
+    padding-top: 0;
+}
+
+.menu__buttons {
+    width: var(--layout-menu-button-width);
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.menu__buttons > .rounded-btn {
+    margin-bottom: var(--space-lg);
+}

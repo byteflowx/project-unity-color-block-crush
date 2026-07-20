@@ -1,0 +1,17 @@
+.screen-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--layout-screen-padding);
+    flex-shrink: 0;
+}
+
+.screen-header__left {
+    flex-direction: row;
+    align-items: center;
+}
+
+.screen-header__right {
+    flex-direction: row;
+    align-items: center;
+}

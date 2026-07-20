@@ -1,0 +1,38 @@
+.screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.screen--visible {
+    display: flex;
+}
+
+.fade-in {
+    transition-property: opacity;
+    transition-duration: var(--transition-slow);
+    transition-timing-function: ease-out;
+}
+
+.fade-out {
+    transition-property: opacity;
+    transition-duration: var(--transition-normal);
+    transition-timing-function: ease-in;
+}
+
+.slide-up {
+    transition-property: translate;
+    transition-duration: var(--transition-slow);
+    transition-timing-function: ease-out;
+}
+
+.scale-press {
+    transition-property: scale;
+    transition-duration: var(--transition-fast);
+    transition-timing-function: ease-out;
+}
+
+.scale-press:active {
+    scale: var(--scale-press) var(--scale-press);
+}

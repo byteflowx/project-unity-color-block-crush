@@ -1,0 +1,22 @@
+.popup-header {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: var(--space-lg);
+}
+
+.popup-header__left {
+    flex: 1;
+}
+
+.popup-header__title {
+    font-size: var(--font-xl);
+    -unity-font-definition: var(--font-bold);
+    color: var(--color-text);
+    -unity-text-align: middle-center;
+}
+
+.popup-header__right {
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+}

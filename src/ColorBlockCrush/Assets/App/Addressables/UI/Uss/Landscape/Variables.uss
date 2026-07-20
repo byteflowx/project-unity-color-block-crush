@@ -1,0 +1,31 @@
+:root {
+    /* ═══════════════════════════════════════════
+       LAYOUT
+       ═══════════════════════════════════════════ */
+    --layout-screen-padding: 32px;
+    --layout-menu-button-width: 480px;
+
+    /* ═══════════════════════════════════════════
+       TYPOGRAPHY - Landscape Scale
+       ═══════════════════════════════════════════ */
+    --font-xs: 16px;
+    --font-sm: 18px;
+    --font-base: 20px;
+    --font-lg: 24px;
+    --font-xl: 28px;
+    --font-2xl: 36px;
+    --font-3xl: 48px;
+    --font-4xl: 64px;
+
+    /* ═══════════════════════════════════════════
+       SCREEN: Menu
+       ═══════════════════════════════════════════ */
+    --menu-logo-size: 140px;
+    --menu-subtitle-size: 56px;
+    --menu-letter-spacing: 4px;
+
+    /* ═══════════════════════════════════════════
+       COMPONENT: Toast
+       ═══════════════════════════════════════════ */
+    --toast-font-size: 60px;
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Composition",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+        "GUID:be9b6ede069bd4809921753a1c05e8e1",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:02368f718baf7400c848c5c30f371444",
+        "GUID:048d6c1bba68e40ed8af52401f310d9c",
+        "GUID:7b92969528b774506bfbae311446e45a",
+        "GUID:8a825fa94ae244a639a45576ec28179a",
+        "GUID:34980d7807d4d45b4954d5855cd07e71",
+        "GUID:b7025f2e4d9bd42ffa89568d2e27152a",
+        "GUID:94a589842caca4995b2d559b7208dfbf",
+        "GUID:db5ba14331bee43aca48aba777356731",
+        "GUID:4cf92cd21976d4886b1d7ac79288e885",
+        "GUID:3138b47d31b234232956d4ba004d7fb1",
+        "GUID:62c6aee08c85a4796b5b81eab35e2b3f",
+        "GUID:dfacb3483121d4b38837449ac324ba26",
+        "GUID:2dd4a852356404b7ba4c9482e568c82f",
+        "GUID:d37cb52560a4b4d88a56ba635fbc1d65"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

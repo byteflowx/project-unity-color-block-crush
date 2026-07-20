@@ -1,0 +1,23 @@
+:root {
+    --unit-label-font: url('/Assets/App/Addressables/Fonts/JetBrainsMono-Bold SDF.asset');
+    --unit-label-size: 64px;
+    --unit-label-color: #FFFFFF;
+    --unit-label-outline-color: rgba(0, 0, 0, 0.65);
+    --unit-label-outline-width: 4px;
+}
+
+.unit-label__root {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.unit-label__charges {
+    -unity-font-definition: var(--unit-label-font);
+    font-size: var(--unit-label-size);
+    color: var(--unit-label-color);
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    -unity-text-outline-width: var(--unit-label-outline-width);
+    -unity-text-outline-color: var(--unit-label-outline-color);
+}

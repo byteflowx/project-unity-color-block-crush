@@ -1,0 +1,108 @@
+{
+ "id": 3,
+ "columns": 10,
+ "cells": [
+  [
+   "BR",
+   "BR",
+   "B",
+   "RR",
+   "RB",
+   "B",
+   "BR",
+   "BB",
+   "BR",
+   "BB"
+  ],
+  [
+   "B",
+   "BR",
+   "Y",
+   "YB",
+   "BR",
+   "R",
+   "Y",
+   "RR",
+   "RR",
+   "BR"
+  ],
+  [
+   "RR",
+   "BR",
+   "BR",
+   "YY",
+   "BB",
+   "B",
+   "Y",
+   "BR",
+   "BY",
+   "BR"
+  ],
+  [
+   "B",
+   "BY",
+   "BB",
+   "Y",
+   "R",
+   "YB",
+   "R",
+   "R",
+   "YY",
+   "B"
+  ],
+  [
+   "BB",
+   "RB",
+   "BR",
+   "YB",
+   "RR",
+   "RY",
+   "RY",
+   "R",
+   "RB",
+   "RY"
+  ],
+  [
+   "R",
+   "RY",
+   "B",
+   "BR",
+   "B",
+   "R",
+   "RB",
+   "RY",
+   "YY",
+   "R"
+  ]
+ ],
+ "lanes": [
+  [
+   {
+    "color": "Red",
+    "charges": 20
+   },
+   {
+    "color": "Blue",
+    "charges": 20
+   }
+  ],
+  [
+   {
+    "color": "Blue",
+    "charges": 20
+   }
+  ],
+  [
+   {
+    "color": "Red",
+    "charges": 20
+   }
+  ],
+  [
+   {
+    "color": "Yellow",
+    "charges": 20
+   }
+  ]
+ ]
+}
